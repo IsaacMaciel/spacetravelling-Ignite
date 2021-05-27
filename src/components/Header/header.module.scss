@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  height: 6.56rem;
+  color: var(--heading);
+
+  max-width: 1120px;
+  margin: 0 auto;
+
+  > h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 1rem;
+
+    > span {
+      color: var(--highlight)
+    }
+  }
+
+
+
+}
