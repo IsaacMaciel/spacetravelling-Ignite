@@ -1,109 +1,324 @@
 {
-  "id": "YKgS3RMAACIAB12h",
-  "uid": "como-lutero-e-calvino-reformaram-a-familia1",
-  "type": "post",
-  "href": "https://ignews-zhk.cdn.prismic.io/api/v2/documents/search?ref=YKgS6hMAACAAB13h&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YKgS3RMAACIAB12h%22%29+%5D%5D",
-  "tags": [],
-  "first_publication_date": "2021-05-21T20:07:06+0000",
-  "last_publication_date": "2021-05-21T20:07:06+0000",
-  "slugs": [
-    "a-reforma-acidental-ii",
-    "a-reforma-acidental"
-  ],
-  "linked_documents": [],
-  "lang": "pt-br",
-  "alternate_languages": [],
-  "data": {
-    "title": "A reforma acidental II",
-    "subtitle": "como Lutero e Calvino reformaram a família",
-    "author": "OWEN STRACHAN",
-    "banner": {
-      "dimensions": {
-        "width": 750,
-        "height": 395
-      },
-      "alt": "Calvino e Lutero",
-      "copyright": null,
-      "url": "https://images.prismic.io/ignews-zhk/687c5182-30ca-4e56-96ff-15be279d5c04_como-Lutero-e-Calvino-reformaram-a-fami%CC%81lia.jpg?auto=compress,format"
-    },
-    "content": [
-      {
-        "heading": "Introdução",
-        "body": [
+  "page": 1,
+  "results_per_page": 1,
+  "results_size": 1,
+  "total_results_size": 3,
+  "total_pages": 3,
+  "next_page": "https://ignews-zhk.cdn.prismic.io/api/v2/documents/search?ref=YKvutBMAACMAGJ4A&q=%5B%5Bat%28document.type%2C+%22post%22%29%5D%5D&orderings=%5Bdocument.first_publication_date%5D&page=2&pageSize=1",
+  "prev_page": null,
+  "results": [
+    {
+      "id": "YKvufxMAACAAGJ0R",
+      "uid": "mitos-do-typescript",
+      "type": "post",
+      "href": "https://ignews-zhk.cdn.prismic.io/api/v2/documents/search?ref=YKvutBMAACMAGJ4A&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YKvufxMAACAAGJ0R%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2021-05-24T18:21:40+0000",
+      "last_publication_date": "2021-05-24T18:21:40+0000",
+      "slugs": [
+        "typescript-vantagens-mitos-dicas-e-conceitos-fundamentais"
+      ],
+      "linked_documents": [],
+      "lang": "pt-br",
+      "alternate_languages": [],
+      "data": {
+        "title": "TypeScript: Vantagens, mitos, dicas e conceitos fundamentais",
+        "subtitle": "Entendendo TypeScript",
+        "author": "Diego Fernanan",
+        "banner": {
+          "dimensions": {
+            "width": 1920,
+            "height": 1080
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/ignews-zhk/c81bf79e-4837-40a0-ab5c-d97d6affd95b_TypeScript_Vantagens_mitos_e_aplicacoes.png?auto=compress,format"
+        },
+        "content": [
           {
-            "type": "paragraph",
-            "text": "A capa da revista Washingtonian, em outubro de 2019 chamou minha atenção. O texto da capa alardeava “mulheres poderosas” e apresentava fotos de muitas mulheres talentosas. Mas, enquanto examinava a capa, percebi que faltava um “emprego” na lista de senadores, CEOs e proprietários de pequenas empresas: dona de casa.",
-            "spans": [
+            "heading": null,
+            "body": [
               {
-                "start": 18,
-                "end": 33,
-                "type": "em"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": "Essa omissão me lembrou da distinção entre uma teologia cristã da feminilidade e uma visão secular da feminilidade. Nossa cultura estima o “poder”, mas não estima a servidão. No entanto, a teologia cristã da feminilidade – assim como a imagem bíblica da masculinidade, do casamento e da família – eleva nossas expectativas. No reino de Cristo, a servidão é exaltada, a educação abnegada dos filhos é uma honra para Deus e o auto sacrifício é nada menos do que divino.",
-            "spans": []
-          },
-          {
-            "type": "paragraph",
-            "text": "Não é assim no mundo e em nosso mundo. A família é, para muitos, uma reflexão tardia na era atual, uma era acelerada, de construção de marcas e de carreiras. Mas nas Escrituras, a família é a primeira instituição. Criada em Gênesis 2, é o palco no qual o belo plano de Deus para homens e mulheres é vivido, um drama que flui suavemente enquanto homens e mulheres desempenham seus papéis.",
-            "spans": [
-              {
-                "start": 26,
-                "end": 32,
-                "type": "em"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": "Felizmente, nossa geração não é a primeira a conhecer essas verdades desprezadas. Martinho Lutero e João Calvino representam dois teólogos da Reforma, aquele movimento bíblico que há muito tempo, promoveu a visão de Deus para a família e levou muitos a fazerem o mesmo. Neste breve ensaio, examinaremos suas contribuições teológicas notáveis ​​sobre esses assuntos, explorando-as como uma convocação para abraçar tudo o que as Escrituras ensinam.",
-            "spans": []
-          }
-        ]
-      },
-      {
-        "heading": "“Obras douradas e nobres”: Martinho Lutero sobre a vocação",
-        "body": [
-          {
-            "type": "paragraph",
-            "text": "A compreensão moderna do trabalho funciona assim: primeiro descobrimos o que mais queremos e, em seguida, classificamos as vocações de acordo com isso. Em seus próprios modos distintos, o pensamento secular, neomarxista e feminista nos diz para estimar o poder, a influência política e o dinheiro. Portanto, empregos que oferecem poder, influência política e dinheiro são os melhores, e aqueles que não, têm pouco ou nenhum valor.",
-            "spans": []
-          },
-          {
-            "type": "paragraph",
-            "text": "Isso é exatamente o oposto de como Lutero (1483-1546) via o trabalho. Como um teólogo protestante maduro – o primeiro! – ele reformulou o trabalho como um chamado ou vocação. Na teologia católica, o trabalho espiritual é valorizado, as realidades mundanas não. O sacerdote era o mais próximo de Deus e, por isso, o trabalho dele era o mais importante. Mas, nas Escrituras, Lutero encontrou a brilhante verdade doutrinária de que toda a vida deve ser vivida coram deo, para Deus (1Co 10.31). Consequentemente, Lutero disse de homens e mulheres cristãos que “mesmo suas obras aparentemente seculares são uma adoração a Deus e uma obediência que agrada a Deus.” Isso se aplica ao trabalho doméstico, que pode “não ter aparência de santidade. . . e, no entanto, essas mesmas obras em conexão com a família são mais desejáveis ​​do que todas as obras de todos os monges e freiras, por mais laboriosos e impressionantes que sejam”.[i]",
-            "spans": [
-              {
-                "start": 457,
-                "end": 466,
-                "type": "em"
+                "type": "paragraph",
+                "text": "Nesse post vamos entender as vantagens da utilização de tipagem estática em nosso código JavaScript utilizando TypeScript, além disso iremos abordar alguns mitos associados com a utilização dessa ferramenta.",
+                "spans": [
+                  {
+                    "start": 29,
+                    "end": 38,
+                    "type": "strong"
+                  },
+                  {
+                    "start": 56,
+                    "end": 72,
+                    "type": "strong"
+                  },
+                  {
+                    "start": 89,
+                    "end": 99,
+                    "type": "strong"
+                  },
+                  {
+                    "start": 111,
+                    "end": 121,
+                    "type": "strong"
+                  }
+                ]
               },
               {
-                "start": 925,
-                "end": 928,
-                "type": "hyperlink",
-                "data": {
-                  "link_type": "Web",
-                  "url": "https://voltemosaoevangelho.com/blog/2021/05/a-reforma-acidental-como-lutero-e-calvino-reformaram-a-familia/#_edn1"
-                }
+                "type": "paragraph",
+                "text": "Antes de mais nada, para introdução ao assunto, o TypeScript é uma ferramenta que adiciona tipagem estática ao JavaScript que por padrão é uma linguagem que possui tipagem dinâmica, ou seja, as variáveis e funções podem assumir tipos distintos durante o tempo de execução.",
+                "spans": [
+                  {
+                    "start": 164,
+                    "end": 180,
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Vale lembrar o código TypeScript é utilizando somente em ambiente de desenvolvimento e é totalmente convertido para JavaScript no processo de build de produção, ou seja, o navegador ou o Node lerão somente código JS no fim das contas.",
+                "spans": [
+                  {
+                    "start": 89,
+                    "end": 126,
+                    "type": "strong"
+                  }
+                ]
               }
             ]
           },
           {
-            "type": "paragraph",
-            "text": "A teologia raramente apresentou uma recuperação maior da verdade do que esta. A visão de Lutero, bíblica, encanta toda a vida cristã. Você pode imaginar um pensamento mais libertador do que este? Pense em um camponês que trabalhou por muito tempo em um campo ingrato ou em uma mulher de origem humilde no século XVI que deu à luz nove filhos com poucos elogios ou recompensas. O corpo dele doía, assim como o dela; eles assumiam suas tarefas diariamente, mas com pouca sensação de alegria; eles labutavam no anonimato, na incerteza e às vezes na humilhação.",
-            "spans": []
+            "heading": "Vantagens do TypeScript",
+            "body": [
+              {
+                "type": "paragraph",
+                "text": "A grande empolgação por trás de usar uma ferramenta como essa é a possibilidade de descobrir erros durante o desenvolvimento e incrementar a inteligência (IntelliSense) da IDE que estamos utilizando.",
+                "spans": [
+                  {
+                    "start": 83,
+                    "end": 98,
+                    "type": "strong"
+                  },
+                  {
+                    "start": 141,
+                    "end": 167,
+                    "type": "strong"
+                  },
+                  {
+                    "start": 155,
+                    "end": 167,
+                    "type": "em"
+                  },
+                  {
+                    "start": 168,
+                    "end": 175,
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "No exemplo abaixo criamos um controller para uma aplicação back-end utilizando Node.js e ExpressJS. Esse arquivo exporta métodos que funcionam como rotas dentro do nosso app e sempre recebem uma requisição e resposta.",
+                "spans": []
+              },
+              {
+                "type": "paragraph",
+                "text": "Sem o TypeScript, nossa IDE jamais saberia o formato desses parâmetros e precisaríamos consultar a documentação do ExpressJS para entender os métodos e valores que poderíamos requisitar.",
+                "spans": [
+                  {
+                    "start": 18,
+                    "end": 52,
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Exemplo da IntelliSense do VSCode com TypeScript",
+                "spans": []
+              },
+              {
+                "type": "paragraph",
+                "text": "Além de ajudar no ambiente de desenvolvimento, o TypeScript ainda permite que utilizemos de funcionalidades da linguagem que ainda não estão disponíveis de forma nativa, por exemplo, no Node.js podemos utilizar os ES Modules (import/export) normalmente.",
+                "spans": []
+              },
+              {
+                "type": "paragraph",
+                "text": "Outro ponto bem legal é que podemos transpilar nosso código para que o mesmo seja lido por todas versões de browsers, assim como fazemos com o Babel em aplicações totalmente JavaScript.",
+                "spans": []
+              }
+            ]
           },
           {
-            "type": "paragraph",
-            "text": "Mas aqui surge Lutero de Wittenberg. Aqui vem uma palavra de alívio, revigoramento e entusiasmo. Toda aquela sujeira nos campos lamacentos? Toda aquela administração doméstica dolorosa? Todos os desafios, provações e dificuldades de criar filhos? Na teologia de Lutero, tal esforço brilhava com beleza e com glória. Tudo importava – tudo era importante para Deus. Deus viu. Deus amou isso. Deus os recompensaria no último dia.",
-            "spans": []
+            "heading": "Mitos do TypeScript",
+            "body": [
+              {
+                "type": "paragraph",
+                "text": "Mitos do TypeScript",
+                "spans": []
+              },
+              {
+                "type": "paragraph",
+                "text": "Antes de entendermos na prática o que muda quando começamos a tipar nosso código, vamos desmistificar algumas coisas sobre o TypeScript:",
+                "spans": []
+              },
+              {
+                "type": "paragraph",
+                "text": "❓  O TypeScript diminui a produtividade",
+                "spans": []
+              },
+              {
+                "type": "paragraph",
+                "text": "Não tenho como negar, meu medo maior de entrar no mundo do TypeScript sempre foi produtividade, mas eu acho que o TypeScript simplesmente não é uma tecnologia pra todos.",
+                "spans": [
+                  {
+                    "start": 81,
+                    "end": 94,
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Na minha opinião na grande maioria dos casos o TypeScript faz você perder produtividade no início do aprendizado sim, são novos conceitos, novas regras e acaba que você se vê acessando a documentação inúmeras vezes pra entender alguns funcionamentos.",
+                "spans": [
+                  {
+                    "start": 58,
+                    "end": 87,
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Mas isso é um processo, e na minha visão quando uma aplicação cresce, passa a ter mais desenvolvedores trabalhando junto ou até é aberta de forma open-source a tipagem estática ajuda muito. Isso porque o código fica muito mais simples de ser entendido.",
+                "spans": []
+              },
+              {
+                "type": "paragraph",
+                "text": "❌  O TypeScript vai substituir o JavaScript",
+                "spans": []
+              },
+              {
+                "type": "paragraph",
+                "text": "Apesar de muita gente tratar o TypeScript como uma linguagem, na minha opinião, o TS (assim como a própria definição do site) é um conjunto de funcionalidades adicionadas ao JavaScript.",
+                "spans": []
+              },
+              {
+                "type": "paragraph",
+                "text": "Isso quer dizer que o TypeScript gira em torno dos avanços da ECMAScript que tem como foco principal o JavaScript e com base nisso monta suas funcionalidades.",
+                "spans": [
+                  {
+                    "start": 62,
+                    "end": 72,
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "❌  Preciso adicionar tipos à todas variáveis e funções",
+                "spans": []
+              },
+              {
+                "type": "paragraph",
+                "text": "Durante o desenvolvimento do seu projeto o TypeScript \"executa\" o código e encontra todas entradas e saídas possíveis tentando determinar automaticamente (inferência de tipos) o tipo das variáveis, parâmetros e retornos de funções.",
+                "spans": [
+                  {
+                    "start": 138,
+                    "end": 154,
+                    "type": "strong"
+                  },
+                  {
+                    "start": 155,
+                    "end": 174,
+                    "type": "hyperlink",
+                    "data": {
+                      "link_type": "Web",
+                      "url": "https://www.typescriptlang.org/docs/handbook/type-inference.html"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Isso quer dizer que para declarar uma variável numérica, por exemplo:",
+                "spans": []
+              },
+              {
+                "type": "paragraph",
+                "text": "const a = 5; ",
+                "spans": []
+              },
+              {
+                "type": "paragraph",
+                "text": "O TypeScript já entende que a variável a é numérica e se tentarmos alterar seu valor para uma string posteriormente receberemos um erro.",
+                "spans": [
+                  {
+                    "start": 94,
+                    "end": 100,
+                    "type": "em"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "❌  TypeScript é a única forma de tipagem",
+                "spans": []
+              },
+              {
+                "type": "paragraph",
+                "text": "Mesmo com o TypeScript ainda temos outras formas de tipagem de código, por exemplo, no React podemos fazer a tipagem de propriedades dos componentes utilizando o PropTypes, que é um tipo de checagem de tipagem dinâmica que funciona em tempo de execução.",
+                "spans": [
+                  {
+                    "start": 87,
+                    "end": 92,
+                    "type": "strong"
+                  },
+                  {
+                    "start": 162,
+                    "end": 171,
+                    "type": "hyperlink",
+                    "data": {
+                      "link_type": "Web",
+                      "url": "https://reactjs.org/docs/typechecking-with-proptypes.html"
+                    }
+                  },
+                  {
+                    "start": 235,
+                    "end": 252,
+                    "type": "strong"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Tipagem estática vs dinâmica",
+                "spans": []
+              },
+              {
+                "type": "paragraph",
+                "text": "O grande pulo do gato entre escolher entre cada uma dessas tipagens é que, a tipagem dinâmica acontece em tempo de execução, ou seja, você irá descobrir os erros apenas executando a aplicação enquanto que a tipagem estática pode garantir que o \"build\" do código não seja gerado caso algum erro de tipagem exista.",
+                "spans": [
+                  {
+                    "start": 105,
+                    "end": 123,
+                    "type": "strong"
+                  },
+                  {
+                    "start": 245,
+                    "end": 251,
+                    "type": "em"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
-    ]
-  }
+    }
+  ],
+  "version": "f7dd222",
+  "license": "This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/."
 }

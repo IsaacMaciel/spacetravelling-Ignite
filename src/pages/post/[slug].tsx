@@ -1,4 +1,4 @@
-import { GetStaticPaths, GetStaticProps } from 'next';
+import { GetServerSideProps, GetStaticPaths, GetStaticProps } from 'next';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 
@@ -12,6 +12,8 @@ import styles from './post.module.scss';
 
 import { FiUser, FiCalendar, FiClock } from 'react-icons/fi';
 import { formatDate } from '../../utils/formatDate';
+import { Comments } from '../../components/Comments';
+import { Navigation } from '../../components/Navigation';
 
 interface Post {
   first_publication_date: string | null;
@@ -32,12 +34,39 @@ interface Post {
 
 interface PostProps {
   post: Post;
+  preview: boolean;
+  navigation: {
+    prevPost: {
+      data: {
+        title: string;
+      };
+      uid: string;
+    };
+    nextPost: {
+      data: {
+        title: string;
+      };
+      uid: string;
+    };
+  };
 }
 
-export default function Post({ post }: PostProps) {
+export default function Post({ post, preview, navigation }: PostProps) {
   const { isFallback } = useRouter();
+  console.log(isFallback)
+
+  if (!post) {
+    return {
+      redirect: {
+        destination: '/',
+        permanent: false
+      }
+    }
+  }
+
   const { data, first_publication_date } = post;
   const { author, title, content, banner } = data;
+
 
   const getReadingTime = () => {
     const totalWords = content.reduce((prevValue, currentValue) => {
@@ -51,9 +80,6 @@ export default function Post({ post }: PostProps) {
     return Math.ceil(totalWords / 200);
   };
 
-  if (isFallback) {
-    return <h1>Carregando...</h1>;
-  }
   return (
     <>
       <Head>
@@ -64,7 +90,7 @@ export default function Post({ post }: PostProps) {
           <img src={banner.url} className={styles.bannerPost} />
           <div className={`${commonStyles.common} ${styles.text}`}>
             <div className={styles.body}>
-              <h1>{title}</h1>
+              <h1>{ isFallback ? 'Carregando...' : title}</h1>
               <div className={styles.informationText}>
                 <span>
                   <FiCalendar />{' '}
@@ -91,6 +117,15 @@ export default function Post({ post }: PostProps) {
               ))}
             </div>
           </div>
+          <footer className={styles.footer}>
+            <div className={styles.containerNavigation}>
+              <Navigation
+                prevPost={navigation.prevPost}
+                nextPost={navigation.nextPost}
+              />
+            </div>
+            <Comments />
+          </footer>
         </article>
       </main>
     </>
@@ -112,16 +147,39 @@ export const getStaticPaths: GetStaticPaths = async () => {
     },
   }));
 
+
   return {
     paths,
     fallback: true,
   };
 };
 
-export const getStaticProps: GetStaticProps = async ({ params }) => {
+export const getStaticProps: GetStaticProps = async ({
+  params,
+  preview = false,
+  previewData,
+}) => {
   const { slug } = params;
   const prismic = getPrismicClient();
   const response = await prismic.getByUID('post', String(slug), {});
+
+  const prevPost = await prismic.query(
+    [Prismic.Predicates.at('document.type', 'post')],
+    {
+      pageSize: 1,
+      after: response.id,
+      orderings: '[document.first_publication_date]',
+    }
+  );
+
+  const nextPost = await prismic.query(
+    [Prismic.Predicates.at('document.type', 'post')],
+    {
+      pageSize: 1,
+      after: response.id,
+      orderings: '[document.last_publication_date desc]',
+    }
+  );
 
   const { data, first_publication_date } = response;
   const { author, banner, content, title } = data;
@@ -147,6 +205,11 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   return {
     props: {
       post: postFormatted,
+      preview,
+      navigation: {
+        prevPost: prevPost?.results[0] ?? null,
+        nextPost: nextPost?.results[0] ?? null,
+      },
     },
   };
 };

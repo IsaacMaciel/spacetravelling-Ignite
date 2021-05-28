@@ -3,8 +3,10 @@
     height: 25rem;
 }
 
+
 .text {
   margin-top: 3.125rem;
+
   h1 {
     font-weight: bold;
     font-size: 3rem;
@@ -14,6 +16,11 @@
 
 .body {
   max-width: 43.75rem;
+  border-bottom: 1px solid #D7D7D7;
+  padding-bottom: 3.75rem;
+  margin-bottom: 3rem;
+
+
 }
 
 .informationText {
@@ -67,5 +74,17 @@
 
   }
 
+
+}
+
+.footer {
+  margin: 0 auto;
+  max-width: 70rem;
+
+}
+
+.containerNavigation {
+  max-width: 43.75rem;
+  margin-bottom: 5rem;
 
 }
